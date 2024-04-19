@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    <div class="main">
+        
+        <div class="page-title" >
+            <h1>
+                Job Application
+            </h1>
+        </div>
+
+
+        <div class="mc">
+
+            
+            <div class="mc2 Personal">
+                    <h2 class="personal-info mc3">
+                        Personal Information
+                    </h2>
+
+
+                    <div class="mc3">
+                        
+                        <div class="info-tag">
+                            Name
+                        </div>
+
+                        <div class="mc4 firstlast-name info-detail-tag">
+                            <div class="mc5 fname">
+                                <div>
+                                    <input type="text" name="fname" id="fname" required>
+                                </div>
+                                <div>
+                                    <small>First Name</small>
+                                </div>
+                            </div>
+                            <div class="mc5 lname">
+                                <div>
+                                    <input type="text" name="lname" id="lname" required>
+                                </div>
+                                <div>
+                                    <small>Last Name</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="mc3">
+                        <div class="info-tag">
+                            Email
+                        </div>
+                        <div class="email info-detail-tag">
+                            <input type="text" name="fname" id="fname" required placeholder="abc@example.com">
+                        </div>
+                    </div>
+                    <br>
+
+
+                    <div class="mc3">
+                        <div class="info-tag">
+                            Education
+                        </div>
+
+                        <div class="edu info-detail-tag">
+                            <select id="edu" name="edu">
+                                <option value="0">Please Choose</option>
+                                <option value="1">1st</option>
+                                <option value="2">2nd</option>
+                                <option value="3">3rd</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+
+
+                    <div class="mc3">
+                        <div class="info-tag">
+                            Resume
+                        </div>
+                        <div class="resume info-detail-tag">
+                            <input type="file" name="resume" id="resume" required>
+                        </div>
+                    </div>
+                    <br>
+
+
+                    <div class="mc3">
+                        <div class="info-tag">
+                            Address
+                        </div>
+
+                        <div class="addr mc4v2 info-detail-tag">
+
+                            <div class="mc5">
+                                <input type="text" name="add1" id="add1" required>
+                                <br>
+                                <small>Address 1</small>
+                            </div>
+                            <div class="mc5">
+                                <input type="text" name="add2" id="add2" required>
+                                <br>
+                                <small>Address 2</small>
+                            </div>
+
+                            <div>
+                                <select id="country" name="country">
+                                    <option value="0">Select a Country</option>
+                                    <option value="1">1st</option>
+                                    <option value="2">2nd</option>
+                                    <option value="3">3rd</option>
+                                </select>
+                            </div>
+                            <br>
+
+                            <div class="mc6">
+                                <div class="state">
+                                    <div>
+                                        <input type="text" name="state" id="state" required>
+                                        <br>
+                                        <small>State</small>
+                                    </div>
+                                </div>
+                                <div class="city">
+                                    <div>
+                                        <input type="text" name="city" id="city" required>
+                                        <br>
+                                        <small>City</small>
+                                    </div>
+                                </div>
+                                <div class="zip">
+                                    <div>
+                                        <input type="text" name="zip" id="zip" required>
+                                        <br>
+                                        <small>Zip</small>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <br>
+
+
+                <div class="mc3">
+                    <div class="info-tag">
+                        Phone Number
+                    </div>
+                    <div class="mc6 info-detail-tag">
+                        <div class="pno1">
+                            <input type="text" name="pno1" id="pno1" required>
+                        </div>
+                        <div class="pno2">
+                            <input type="text" name="pno2" id="pno2" required>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            
+
+                <div class="mc3">
+                    <div class="info-tag">
+                        What are you hobbies?
+                    </div>
+                    <div class="hob info-detail-tag">
+                        <input type="text" name="hob" id="hob" required>
+                    </div>
+                </div>
+                <br>
+
+        </div> 
+
+
+        <div class="mc2 employement-details">
+            
+            <div>
+                <h2 class="prev-info">
+                    Previous/Current Employment Details
+                </h2>
+            </div>
+
+            <div class="mc3">
+                <div class="coyname info-tag">
+                    Company Name
+                </div>
+                <div class="info-detail-tag">
+                    <div class="coy">
+                        <input type="text" name="coy" id="coy" required>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="mc3">
+                <div class="info-tag">
+                    Job Title
+                </div>
+                <div class="info-detail-tag">
+                    <div class="coy">
+                        <input type="text" name="jobtitle" id="jobtitle" required>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="mc3">
+                <div class="info-tag">
+                    How long were you here?
+                </div>
+                <div class="info-detail-tag">
+                    <div class="dur">
+                        <input type="text" name="dur" id="dur" required>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <h2 class="prev-info">
+                    Reference #1
+                </h2>
+            </div>
+
+            <div class="mc3">
+                <div class="rname info-tag">
+                    Name
+                </div>
+                <div class="info-detail-tag">
+                    <div class="rname">
+                        <input type="text" name="rname" id="rname" required>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="mc3">
+                <div class="info-tag">
+                    Phone Number
+                </div>
+                <div class="info-detail-tag">
+                    <div class="rpno1">
+                        <input type="text" name="rpno1" id="rpno1" required>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+        
+            <div>
+                <h2 class="prev-info">
+                    Reference #2
+                </h2>
+            </div>
+
+            <div class="mc3">
+                <div class="rname info-tag">
+                    Name
+                </div>
+                <div class="info-detail-tag">
+                    <div class="rname2">
+                        <input type="text" name="rname" id="rname2" required>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="mc3">
+                <div class="info-tag">
+                    Phone Number
+                </div>
+                <div class="info-detail-tag">
+                    <div class="rpno2">
+                        <input type="text" name="rpno2" id="rpno2" required>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <input type="submit" name="submit" id="submit">
+        </div>
+        
+    </div>
+    </div>
+</body>
+</html>

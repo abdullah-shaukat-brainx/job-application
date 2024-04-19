@@ -1,0 +1,80 @@
+.main{
+    background-color: skyblue;
+    width: 50%;
+}
+
+.mc{
+    display: flex;
+    flex-direction: column;
+}
+.mc2{
+    display: flex;
+    flex-direction: column;
+}
+
+.mc3{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
+.mc4{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
+.info-detail-tag{
+    flex: 2;
+}
+.info-tag{
+    flex: 1;
+}
+.mc4v2{
+    display: flex;
+    flex-direction: column;
+}
+.mc6{
+    display: flex;
+    flex-direction: start;
+}
+.page-title{
+    text-align:center;
+}
+
+.personal-info, .prev-info, .refer{
+    color: saddlebrown;
+}
+
+.state input{
+    width: 20%;
+}
+
+.city input{
+    width: 70%;
+}
+.zip input{
+    width: 30%;
+}
+
+#coy{
+    width: inherit;
+}
+
+.pno1{
+    width: 25%;
+}
+.pno2{
+    width: 75%;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button{
+display: flex;
+justify-content: center;
+background-color:brown
+}
