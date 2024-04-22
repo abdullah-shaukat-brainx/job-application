@@ -1,6 +1,10 @@
-.main{
-    background-color: skyblue;
-    width: 50%;
+body {
+    align-self: center;
+    border-top: 5px brown;
+    border-top-style: solid;
+    width: 40%;
+    margin: 100px 0 0 100px;
+    padding: 10px 10px 10px 10px;
 }
 
 .mc{
@@ -10,12 +14,14 @@
 .mc2{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .mc3{
     display: flex;
     flex-direction: row;
     justify-content: start;
+    margin-bottom: 20px;
 
 }
 .mc4{
@@ -23,11 +29,15 @@
     justify-content:space-between;
     flex-direction: row;
 }
+div.mc5.lname{
+    margin-left: 20px;
+}
 
 .info-detail-tag{
     flex: 2;
 }
 .info-tag{
+    margin-right: 100px;
     flex: 1;
 }
 .mc4v2{
@@ -37,6 +47,22 @@
 .mc6{
     display: flex;
     flex-direction: start;
+    width: 300px;
+}
+.state input {
+    width: 30px;
+    margin-right: 10px;
+}
+.city input {
+    width: 100px;
+    margin-right: 10px;
+}
+.zip input {
+    width: 50px;
+    margin-right: 10px;
+}
+.large-input{
+    width:300px;
 }
 .page-title{
     text-align:center;
@@ -46,35 +72,26 @@
     color: saddlebrown;
 }
 
-.state input{
-    width: 20%;
+.pno1 input{
+    width: 30px;
 }
-
-.city input{
-    width: 70%;
-}
-.zip input{
-    width: 30%;
-}
-
-#coy{
-    width: inherit;
-}
-
 .pno1{
-    width: 25%;
+    margin-right: 5%;
 }
 .pno2{
     width: 75%;
 }
 
-.submit{
-    display: flex;
-    justify-content: center;
-}
-
 .submit-button{
-display: flex;
-justify-content: center;
-background-color:brown
+    align-self: center;
+}
+.submit{
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    background-color: brown;
+}
+input{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: brown;
 }
